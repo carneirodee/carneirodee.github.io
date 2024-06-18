@@ -1,0 +1,53 @@
+.section-services {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: start;
+    align-content: start;
+    align-self: start;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    flex-direction: row !important;
+    padding: 20px 5px 5px 5px;
+    position: relative;
+}
+
+#services>.Typewriter {
+    position: relative;
+    font-size: 2vw;
+    line-height: 0vw;
+    color: white;
+}
+
+.services-row {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+section>.Typewriter {
+    display: none;
+}
+
+a {
+    background-color: white;
+    width: 1em;
+    height: 1em;
+    position: relative;
+    /* z-index: 99; */
+    margin-top: 70vh;
+    margin-right: 4vw;
+    margin-left: 4vw;
+    transform:rotate(45deg);
+}
+
+.selected{
+    width: 0.9em;
+    height: 0.9em;
+    outline: 2px solid white;
+    outline-offset: 5px;
+    transform:rotate(0deg);
+
+}

@@ -1,0 +1,69 @@
+.mobile-card {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column !important;
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 8px 8px 0 white;
+    border-radius: 2px;
+    color: white;
+    width: 90%;
+    height: 60%;
+    position: absolute;
+ 
+}
+
+.mobile-card button {
+    align-self: center;
+    padding: 1vw 3vw;
+    font-size: 3vh;
+    font-family: 'Fira Mono', monospace;
+    border: 2px solid white;
+    box-shadow: 5px 5px 0 white;
+    background-color: black;
+    color: white;
+}
+
+.mobile-card button:hover {
+    box-shadow:
+        2px 2px 0 violet,
+        4px 4px 0 indigo,
+        6px 6px 0 blue,
+        8px 8px 0 green,
+        10px 10px 0 yellow,
+        12px 12px 0 orange,
+        14px 14px 0 red;
+}
+
+.mobile-card svg {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+
+.mobile-card h1 {
+    font-family: 'Fira Mono', monospace;
+    font-weight: lighter;
+    font-size: 4vh;
+
+}
+
+.mobile-card:hover {
+    box-shadow:
+        2px 2px 0 violet,
+        4px 4px 0 indigo,
+        6px 6px 0 blue,
+        8px 8px 0 green,
+        10px 10px 0 yellow,
+        12px 12px 0 orange,
+        14px 14px 0 red;
+}
+
+.mobile-card p {
+    text-align: center;
+    margin: 20px;
+    font-size: 4vh;
+    font-family: 'Fira Mono', monospace;
+}

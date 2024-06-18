@@ -1,0 +1,112 @@
+.section-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.contact-box {
+    background-color: black;
+    height: 65vh;
+    width: 55vw;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 2px;
+    box-shadow: 15px 15px 0 white;
+    color: white;
+}
+
+.contact-box> .Typewriter {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 2vw;
+    line-height: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: 'Fira Mono', monospace;
+    color: white;
+}
+
+.contact-box .form-contact {
+    padding: 3vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+
+.identifiers {
+    width: 18vw;
+    height: 4vh;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Fira Mono', monospace;
+    font-size: larger;
+    margin: 0 0 3vw 1vw;
+}
+
+.identifiers:focus, .button-contact:focus{
+    box-shadow: 8px 8px 0 white;
+}
+
+.identifiers.email {
+    width: 25vw;
+}
+
+.identifiers.message {
+    width: 44.5vw;
+    height: 25vh;
+}
+
+.button-contact-container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.button-contact{
+    width: 20vw;
+    height: 5vh;
+    background-color: black;
+    border: 1px solid white;
+    font-size: larger;
+    font-family: 'Fira Mono', monospace;
+    color: white;
+}
+
+.identifiers.email.error, .identifiers.message.error, .identifiers.error{
+    box-shadow: 8px 8px 0 red;
+}
+
+@media (min-device-width: 350px) and (max-device-width: 850px) {
+
+  .contact-box>.Typewriter{
+      font-size: 15px;
+  }
+  .contact-box> .Typewriter {
+    font-size: 4vw;
+}
+  .contact-box{
+      height: 60vh;
+      width: 80vw;
+  }
+
+.identifiers.message {
+    width: 90%;
+    height: 30vh;
+}
+
+.identifiers {
+    width: 90%;
+    margin-top: 2%;
+}
+
+.identifiers.email {
+    width: 90%;
+}
+}
