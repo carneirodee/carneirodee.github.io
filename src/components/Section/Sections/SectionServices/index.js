@@ -121,7 +121,7 @@ function SectionServices() {
             {cards.map((card, key) => {
               return <a className={key === currentCard ? "selected": ''} onClick={() => { setCurrentCard(key) }}></a>
             })}
-          </div> : "No content"
+          </div> : ""
         }
       </Section>
     </VisibilitySensor >
