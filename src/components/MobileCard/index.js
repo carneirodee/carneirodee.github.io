@@ -1,9 +1,8 @@
 import './MobileCard.css';
-// import  Mobile  from '../../assets/images/Mobile.jsx';
 
 function MobileCard(props) {
 
-    const { title, imgSrc, description, buttonValue, onclick, visibility } = props;
+    const { title, description, buttonValue, onclick, visibility } = props;
     return (
         <>
             {
