@@ -105,23 +105,7 @@ function SectionServices() {
                 </div>
             }
           </div>
-          : isMobile ? <div className="section-services"   {...handlers}>
-            {cards.map((card, key) => {
-              return <MobileCard
-                title={card.title}
-                description={card.description}
-                buttonValue="See more"
-                onclick={() => goTo()}
-                key={key}
-                visibility={key === currentCard}
-              >
-                {card.icon}
-              </MobileCard>
-            })}
-            {cards.map((card, key) => {
-              return <a className={key === currentCard ? "selected": ''} onClick={() => { setCurrentCard(key) }}></a>
-            })}
-          </div> : ""
+          : ""
         }
       </Section>
     </VisibilitySensor >
