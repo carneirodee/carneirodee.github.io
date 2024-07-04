@@ -25,13 +25,13 @@ function SectionServices() {
   const cards = [
     {
       title: "Mobile",
-      description: "Hybrid App Development with React Native, Flutter, Ionic. And Native App Development Swift and Android",
+      description: "Hybrid App Development And Native App Development for mobiles",
       icon: <Mobile />
 
     },
     {
       title: "Web",
-      description: "Frontend and Backend for web development with Reactjs, Angular, Nodejs and Spring Boot",
+      description: "Frontend and Backend for web development",
       icon: <Web />
     },
     {
